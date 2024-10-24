@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carrosel {
+    margin: auto;
+}
+#main {
+    margin: 20px 30px 20px 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+
+.card1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 18rem;
+}
+
+#designText {
+    background-color: rgb(6, 151, 248);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+}
+
+.paginacao {
+    margin: auto;
+    text-align: center;
+}
+
+.descricao {
+    margin-top: 2px;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: blanchedalmond;
+    height: 300px;
+}
+
+.footerP {
+    padding: 50px;
+    
+    
+}
