@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;/*Mantem o espaçamento e não deixa quebrar o Layout*/
+}
+a {
+    text-decoration: none;
+    transition: all .4s ease;
+    transition-duration: 0.5s;
+}
+a:hover {
+    color: aqua;
+}
+
+#tituloh5 {
+    margin: 0px 0 20px 0;
+    padding: 10px 0 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(6, 151, 248);
+    color: rgb(255, 255, 255);
+}
+#paragrafos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.carrosel {
+    margin: auto;
+}
+
+#main {
+    margin: 0;
+}
+#containerCard {
+    display: flex;
+    flex-wrap: wrap;/*Define se as caixas vão quebrar ou não. Se não quebra elas encolhem.*/
+    justify-content: space-evenly;
+}
+.card1 {
+    width: 15rem;
+    margin: 5px;
+}
+
+#designText {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(6, 151, 248);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+}
+
+.descricao {
+    margin-top: 2px;
+}
+
+
+/*INÍCIO FOOTER*/
+
+.footer {
+    width: 100%;
+    background-color: #4b4b4b;
+    color: white;
+}
+
+.contentFooter {
+    margin: auto;
+    width: 98%;
+    padding: 20px;
+    display: flex; /*Coloca os elementos lado a lado */
+    flex-direction: row; /*Alinha os elementos um do lado do outro. */
+    justify-content: space-between;
+}
+
+.footer-col {
+    width: 45%;
+    padding: 5px 10px 5px 10px;
+}
+
+.footer-col-links {
+    text-decoration: none;
+}
+
+.row1 {
+    background-image: linear-gradient(#ffffff, #b8b8b8, #555);
+    color: black;
+    width: 100%;
+    height: 19vh;
+    padding-top: 20px;
+}
+
+.text-center {
+
+}
+
+.footer-autorais {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    padding: 2px 2px 0px 2px;
+}
+
+/*FIM FOOTER*/
+
+

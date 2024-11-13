@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+main {
+	font-family: Helvetica, Tahoma, sans-serif;
+	color: #113157; /* #333344; */
+	font-size: 100%; /* 100% = 16px */
+	text-shadow: 0.1em 0.1em 0.1em #ddf;
+	line-height: 1.5em;
+}
+
+header {
+	background-image: linear-gradient(to left, rgb(233, 240, 233), #9797fd, rgb(243, 228, 228));
+	height: 200px;
+	padding: 30px 10px 20px 10px;
+	
+}
+
+header>p{
+	text-align: center;
+	margin: 10px;
+	font-size: 1.3em;
+}
+h1,h2 {
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+	margin-top: 20px;
+	color: rgb(195, 4, 243);
+}
+
+nav {
+	background-image: linear-gradient(to right, rgb(207, 229, 241), rgb(189, 219, 224), rgb(223, 225, 238));
+	margin: 0 10px 0 10px;
+	border-radius: 0 0px 5px 5px;
+}
+
+ul#navs {
+	display: flex;
+	list-style-type: none;
+	
+}
+
+ul > li {
+	margin: 5px;
+}
+
+a {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: inherit; /*Tira a cor azul dos âncoras.*/
+	transition: all .5s ease-in-out;
+	font-size: 0.9em; /*Tamanho das letras.*/
+}
+
+a:hover {
+	color: rgb(245, 6, 6);
+	
+}
+#containerPai {
+	display: flex;
+}
+
+.itens {
+	margin-bottom: 3px;
+	padding: 4px 4px 4px 4px;
+	flex-shrink: 1;
+	flex-grow: 0;
+	border: 1px solid black;
+}
+
+
+
+
+
